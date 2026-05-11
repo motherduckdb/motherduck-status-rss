@@ -5,7 +5,7 @@
     <link>https://status.motherduck.com</link>
     <description>Degraded EU Region Database Load Times</description>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 10:29:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 12:04:51 +0000</lastBuildDate>
     <ttl>15</ttl>
     <item>
       <title>[Detected] Degraded experience using Dives</title>
@@ -55,6 +55,24 @@ Apologies for any inconvenience.</description>
 
 We're continuing to investigate this issue.</description>
       <pubDate>Mon, 11 May 2026 10:29:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Investigating] Degraded EU Region Database Load Times</title>
+      <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
+      <guid>PCBGK9G-1778498168</guid>
+      <description>Affected: MotherDuck App
+
+We are still investigating the degraded database load times in the EU Region. Our team continues to work on fixing it with high urgency.</description>
+      <pubDate>Mon, 11 May 2026 11:16:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Investigating] Degraded EU Region Database Load Times</title>
+      <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
+      <guid>PCBGK9G-1778501091</guid>
+      <description>Affected: MotherDuck App
+
+We continue working on fixing this issue.</description>
+      <pubDate>Mon, 11 May 2026 12:04:51 +0000</pubDate>
     </item>
     <item>
       <title>[Investigating] Some databases are failing to load</title>
