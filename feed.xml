@@ -3,9 +3,9 @@
   <channel>
     <title>MotherDuck Status</title>
     <link>https://status.motherduck.com</link>
-    <description>Degraded EU Central Attach Times</description>
+    <description>Degraded EU Region Database Load Times</description>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 09:37:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 10:29:56 +0000</lastBuildDate>
     <ttl>15</ttl>
     <item>
       <title>[Detected] Degraded experience using Dives</title>
@@ -37,13 +37,24 @@ At this point, all major browsers should invalidate the old cache for the Mother
       <pubDate>Sat, 02 May 2026 13:34:44 +0000</pubDate>
     </item>
     <item>
-      <title>[Investigating] Degraded EU Central Attach Times</title>
+      <title>[Investigating] Degraded EU Region Database Load Times</title>
       <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
-      <guid>PCBGK9G-1778492278</guid>
+      <guid>PCBGK9G-1778486400</guid>
       <description>Affected: MotherDuck App
 
-We are currently experiencing a EU Central 1 service disruption where databases attach times are degraded. This impacts both existing and new connections. Our team is investigating and will update as soon as we learn more. We will provide a new update in 30 minutes. Apologies for any...</description>
-      <pubDate>Mon, 11 May 2026 09:37:58 +0000</pubDate>
+We are currently experiencing a service disruption on the EU region where database load times are degraded. Our team is investigating and will update as soon as we learn more.
+
+Apologies for any inconvenience.</description>
+      <pubDate>Mon, 11 May 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Investigating] Degraded EU Region Database Load Times</title>
+      <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
+      <guid>PCBGK9G-1778495396</guid>
+      <description>Affected: MotherDuck App
+
+We're continuing to investigate this issue.</description>
+      <pubDate>Mon, 11 May 2026 10:29:56 +0000</pubDate>
     </item>
     <item>
       <title>[Investigating] Some databases are failing to load</title>
