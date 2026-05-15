@@ -3,9 +3,9 @@
   <channel>
     <title>MotherDuck Status</title>
     <link>https://status.motherduck.com</link>
-    <description>We are experiencing elevated attach failures</description>
+    <description>Everything is paddling smoothly</description>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 01:25:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 01:38:51 +0000</lastBuildDate>
     <ttl>15</ttl>
     <item>
       <title>[Detected] Degraded experience using Dives</title>
@@ -118,6 +118,15 @@ We are continuing to investigate.</description>
 
 We have identified the issue and restoring service. Restarting ducklings will restore connectivity.</description>
       <pubDate>Fri, 15 May 2026 01:25:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Resolved] We are experiencing elevated attach failures</title>
+      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
+      <guid>PB8IG6M-1778809131</guid>
+      <description>Affected: MotherDuck App
+
+This incident has been resolved. We apologize for the disruption. Please reach out if you need any assistance.</description>
+      <pubDate>Fri, 15 May 2026 01:38:51 +0000</pubDate>
     </item>
     <item>
       <title>[Investigating] Some databases are failing to load</title>
