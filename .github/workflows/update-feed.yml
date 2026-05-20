@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
 
     steps:
       - uses: actions/checkout@v4
@@ -23,6 +24,15 @@ jobs:
 
       - name: Generate feed
         run: python generate_feed.py
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Upload feed to S3
+        run: aws s3 cp feed.xml s3://status-rss.motherduck.com/feed.xml --content-type application/rss+xml
 
       - name: Commit and push if changed
         run: |
