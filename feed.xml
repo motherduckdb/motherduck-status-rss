@@ -8,62 +8,58 @@
     <lastBuildDate>Fri, 15 May 2026 01:38:51 +0000</lastBuildDate>
     <ttl>15</ttl>
     <item>
-      <title>[Detected] Degraded experience using Dives</title>
-      <link>https://status.motherduck.com/posts/details/P48P9QV</link>
-      <guid>P48P9QV-1777668600</guid>
+      <title>[Resolved] We are experiencing elevated attach failures</title>
+      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
+      <guid>PB8IG6M-1778809131</guid>
       <description>Affected: MotherDuck App
 
-For some customers, Dives may not load properly, with a stuck page that says "Waiting for sandbox...". This is due to a caching issue. This issue will likely disappear on its own as your browser cache invalidates naturally.
-
-But while we've fixed the issue upstream, you might encounter it...</description>
-      <pubDate>Fri, 01 May 2026 20:50:00 +0000</pubDate>
+This incident has been resolved. We apologize for the disruption. Please reach out if you need any assistance.</description>
+      <pubDate>Fri, 15 May 2026 01:38:51 +0000</pubDate>
     </item>
     <item>
-      <title>[Detected] Degraded experience using Dives</title>
-      <link>https://status.motherduck.com/posts/details/P48P9QV</link>
-      <guid>P48P9QV-1777671600</guid>
+      <title>[Investigating] We are experiencing elevated attach failures</title>
+      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
+      <guid>PB8IG6M-1778808340</guid>
       <description>Affected: MotherDuck App
 
-No new updates.</description>
-      <pubDate>Fri, 01 May 2026 21:40:00 +0000</pubDate>
+We have identified the issue and restoring service. Restarting ducklings will restore connectivity.</description>
+      <pubDate>Fri, 15 May 2026 01:25:40 +0000</pubDate>
     </item>
     <item>
-      <title>[Resolved] Degraded experience using Dives</title>
-      <link>https://status.motherduck.com/posts/details/P48P9QV</link>
-      <guid>P48P9QV-1777728884</guid>
+      <title>[Investigating] We are experiencing elevated attach failures</title>
+      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
+      <guid>PB8IG6M-1778807335</guid>
       <description>Affected: MotherDuck App
 
-At this point, all major browsers should invalidate the old cache for the MotherDuck UI. If you are having a problem accessing your Dives, please contact us.</description>
-      <pubDate>Sat, 02 May 2026 13:34:44 +0000</pubDate>
+We are continuing to investigate.</description>
+      <pubDate>Fri, 15 May 2026 01:08:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Detected] We are experiencing elevated attach failures</title>
+      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
+      <guid>PB8IG6M-1778805566</guid>
+      <description>Affected: MotherDuck App
+
+We are currently investigating this issue.</description>
+      <pubDate>Fri, 15 May 2026 00:39:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Resolved] Degraded EU Region Database Load Times</title>
+      <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
+      <guid>PCBGK9G-1778506943</guid>
+      <description>Affected: MotherDuck App
+
+Database load times in the EU region are back to normal.</description>
+      <pubDate>Mon, 11 May 2026 13:42:23 +0000</pubDate>
     </item>
     <item>
       <title>[Investigating] Degraded EU Region Database Load Times</title>
       <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
-      <guid>PCBGK9G-1778486400</guid>
+      <guid>PCBGK9G-1778504488</guid>
       <description>Affected: MotherDuck App
 
-We are currently experiencing a service disruption on the EU region where database load times are degraded. Our team is investigating and will update as soon as we learn more.
-
-Apologies for any inconvenience.</description>
-      <pubDate>Mon, 11 May 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] Degraded EU Region Database Load Times</title>
-      <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
-      <guid>PCBGK9G-1778495396</guid>
-      <description>Affected: MotherDuck App
-
-We're continuing to investigate this issue.</description>
-      <pubDate>Mon, 11 May 2026 10:29:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] Degraded EU Region Database Load Times</title>
-      <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
-      <guid>PCBGK9G-1778498168</guid>
-      <description>Affected: MotherDuck App
-
-We are still investigating the degraded database load times in the EU Region. Our team continues to work on fixing it with high urgency.</description>
-      <pubDate>Mon, 11 May 2026 11:16:08 +0000</pubDate>
+Our team has deployed a fix addressing the issue, which has improved database load times in the EU region. We continue actively monitoring the situation, and thank you for your patience while we continue working on getting database load times back to normal.</description>
+      <pubDate>Mon, 11 May 2026 13:01:28 +0000</pubDate>
     </item>
     <item>
       <title>[Investigating] Degraded EU Region Database Load Times</title>
@@ -77,79 +73,78 @@ We continue working on fixing this issue.</description>
     <item>
       <title>[Investigating] Degraded EU Region Database Load Times</title>
       <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
-      <guid>PCBGK9G-1778504488</guid>
+      <guid>PCBGK9G-1778498168</guid>
       <description>Affected: MotherDuck App
 
-Our team has deployed a fix addressing the issue, which has improved database load times in the EU region. We continue actively monitoring the situation, and thank you for your patience while we continue working on getting database load times back to normal.</description>
-      <pubDate>Mon, 11 May 2026 13:01:28 +0000</pubDate>
+We are still investigating the degraded database load times in the EU Region. Our team continues to work on fixing it with high urgency.</description>
+      <pubDate>Mon, 11 May 2026 11:16:08 +0000</pubDate>
     </item>
     <item>
-      <title>[Resolved] Degraded EU Region Database Load Times</title>
+      <title>[Investigating] Degraded EU Region Database Load Times</title>
       <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
-      <guid>PCBGK9G-1778506943</guid>
+      <guid>PCBGK9G-1778495396</guid>
       <description>Affected: MotherDuck App
 
-Database load times in the EU region are back to normal.</description>
-      <pubDate>Mon, 11 May 2026 13:42:23 +0000</pubDate>
+We're continuing to investigate this issue.</description>
+      <pubDate>Mon, 11 May 2026 10:29:56 +0000</pubDate>
     </item>
     <item>
-      <title>[Detected] We are experiencing elevated attach failures</title>
-      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
-      <guid>PB8IG6M-1778805566</guid>
+      <title>[Investigating] Degraded EU Region Database Load Times</title>
+      <link>https://status.motherduck.com/posts/details/PCBGK9G</link>
+      <guid>PCBGK9G-1778486400</guid>
       <description>Affected: MotherDuck App
 
-We are currently investigating this issue.</description>
-      <pubDate>Fri, 15 May 2026 00:39:26 +0000</pubDate>
+We are currently experiencing a service disruption on the EU region where database load times are degraded. Our team is investigating and will update as soon as we learn more.
+
+Apologies for any inconvenience.</description>
+      <pubDate>Mon, 11 May 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Investigating] We are experiencing elevated attach failures</title>
-      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
-      <guid>PB8IG6M-1778807335</guid>
+      <title>[Resolved] Degraded experience using Dives</title>
+      <link>https://status.motherduck.com/posts/details/P48P9QV</link>
+      <guid>P48P9QV-1777728884</guid>
       <description>Affected: MotherDuck App
 
-We are continuing to investigate.</description>
-      <pubDate>Fri, 15 May 2026 01:08:55 +0000</pubDate>
+At this point, all major browsers should invalidate the old cache for the MotherDuck UI. If you are having a problem accessing your Dives, please contact us.</description>
+      <pubDate>Sat, 02 May 2026 13:34:44 +0000</pubDate>
     </item>
     <item>
-      <title>[Investigating] We are experiencing elevated attach failures</title>
-      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
-      <guid>PB8IG6M-1778808340</guid>
+      <title>[Detected] Degraded experience using Dives</title>
+      <link>https://status.motherduck.com/posts/details/P48P9QV</link>
+      <guid>P48P9QV-1777671600</guid>
       <description>Affected: MotherDuck App
 
-We have identified the issue and restoring service. Restarting ducklings will restore connectivity.</description>
-      <pubDate>Fri, 15 May 2026 01:25:40 +0000</pubDate>
+No new updates.</description>
+      <pubDate>Fri, 01 May 2026 21:40:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Resolved] We are experiencing elevated attach failures</title>
-      <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
-      <guid>PB8IG6M-1778809131</guid>
+      <title>[Detected] Degraded experience using Dives</title>
+      <link>https://status.motherduck.com/posts/details/P48P9QV</link>
+      <guid>P48P9QV-1777668600</guid>
       <description>Affected: MotherDuck App
 
-This incident has been resolved. We apologize for the disruption. Please reach out if you need any assistance.</description>
-      <pubDate>Fri, 15 May 2026 01:38:51 +0000</pubDate>
+For some customers, Dives may not load properly, with a stuck page that says "Waiting for sandbox...". This is due to a caching issue. This issue will likely disappear on its own as your browser cache invalidates naturally.
+
+But while we've fixed the issue upstream, you might encounter it...</description>
+      <pubDate>Fri, 01 May 2026 20:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Investigating] Some databases are failing to load</title>
-      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
-      <guid>PEOX9ST-1775195100</guid>
-      <description>Some users are experiencing a degradation of service because a subset of databases are failing to load. We are investigating.</description>
-      <pubDate>Fri, 03 Apr 2026 05:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] Some databases are failing to load</title>
-      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
-      <guid>PEOX9ST-1775199600</guid>
-      <description>We have identified the root cause and are working on implementing a fix</description>
-      <pubDate>Fri, 03 Apr 2026 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Resolved] Some databases are failing to load</title>
-      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
-      <guid>PEOX9ST-1775202231</guid>
+      <title>[Resolved] MotherDuck databases unavailable in us-east-1</title>
+      <link>https://status.motherduck.com/posts/details/PTJ59ZS</link>
+      <guid>PTJ59ZS-1777558511</guid>
       <description>Affected: MotherDuck App
 
-Databases are loading as expected after deploying the fix. We are actively monitoring the health of the service.</description>
-      <pubDate>Fri, 03 Apr 2026 07:43:51 +0000</pubDate>
+This incident has been resolved. All databases are available.</description>
+      <pubDate>Thu, 30 Apr 2026 14:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Investigating] MotherDuck databases unavailable in us-east-1</title>
+      <link>https://status.motherduck.com/posts/details/PTJ59ZS</link>
+      <guid>PTJ59ZS-1777557235</guid>
+      <description>Affected: MotherDuck App
+
+We have identified the root cause of this incident and are implementing a fix.</description>
+      <pubDate>Thu, 30 Apr 2026 13:53:55 +0000</pubDate>
     </item>
     <item>
       <title>[Investigating] MotherDuck databases unavailable in us-east-1</title>
@@ -163,58 +158,36 @@ We will provide...</description>
       <pubDate>Thu, 30 Apr 2026 13:40:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Investigating] MotherDuck databases unavailable in us-east-1</title>
-      <link>https://status.motherduck.com/posts/details/PTJ59ZS</link>
-      <guid>PTJ59ZS-1777557235</guid>
+      <title>[Resolved] Some databases are failing to load</title>
+      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
+      <guid>PEOX9ST-1775202231</guid>
       <description>Affected: MotherDuck App
 
-We have identified the root cause of this incident and are implementing a fix.</description>
-      <pubDate>Thu, 30 Apr 2026 13:53:55 +0000</pubDate>
+Databases are loading as expected after deploying the fix. We are actively monitoring the health of the service.</description>
+      <pubDate>Fri, 03 Apr 2026 07:43:51 +0000</pubDate>
     </item>
     <item>
-      <title>[Resolved] MotherDuck databases unavailable in us-east-1</title>
-      <link>https://status.motherduck.com/posts/details/PTJ59ZS</link>
-      <guid>PTJ59ZS-1777558511</guid>
-      <description>Affected: MotherDuck App
-
-This incident has been resolved. All databases are available.</description>
-      <pubDate>Thu, 30 Apr 2026 14:15:11 +0000</pubDate>
+      <title>[Investigating] Some databases are failing to load</title>
+      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
+      <guid>PEOX9ST-1775199600</guid>
+      <description>We have identified the root cause and are working on implementing a fix</description>
+      <pubDate>Fri, 03 Apr 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Detected] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772751980</guid>
-      <description>Affected: MotherDuck App
-
-Our internal monitors have detected an increase in server-side error messages immediately following a release. We are currently investigating the issue. So far a limited number of customers appear to be affected but the full impact is unknown.</description>
-      <pubDate>Thu, 05 Mar 2026 23:06:20 +0000</pubDate>
+      <title>[Investigating] Some databases are failing to load</title>
+      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
+      <guid>PEOX9ST-1775195100</guid>
+      <description>Some users are experiencing a degradation of service because a subset of databases are failing to load. We are investigating.</description>
+      <pubDate>Fri, 03 Apr 2026 05:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Investigating] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772754137</guid>
+      <title>[Resolved] MotherDuck Remote MCP Server is currently unavailable</title>
+      <link>https://status.motherduck.com/posts/details/P9BOS1P</link>
+      <guid>P9BOS1P-1774362740</guid>
       <description>Affected: MotherDuck App
 
-Following a code release at approximately 23:00 UTC, most customers are unable to create new dives and may experience errors when loading existing dives. We are continuing to investigate the root cause.</description>
-      <pubDate>Thu, 05 Mar 2026 23:42:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772755161</guid>
-      <description>Affected: MotherDuck App
-
-We believe we have identified the root cause and are working to validate a fix. We believe the fix will be deployed within 2 hours.</description>
-      <pubDate>Thu, 05 Mar 2026 23:59:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Resolved] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772756974</guid>
-      <description>Affected: MotherDuck App
-
-This incident has been resolved.</description>
-      <pubDate>Fri, 06 Mar 2026 00:29:34 +0000</pubDate>
+This issue has been resolved, the MCP server is available.</description>
+      <pubDate>Tue, 24 Mar 2026 14:32:20 +0000</pubDate>
     </item>
     <item>
       <title>[Investigating] MotherDuck Remote MCP Server is currently unavailable</title>
@@ -226,13 +199,40 @@ The MotherDuck remote MCP server is currently unavailable, we are investigating 
       <pubDate>Tue, 24 Mar 2026 14:12:44 +0000</pubDate>
     </item>
     <item>
-      <title>[Resolved] MotherDuck Remote MCP Server is currently unavailable</title>
-      <link>https://status.motherduck.com/posts/details/P9BOS1P</link>
-      <guid>P9BOS1P-1774362740</guid>
+      <title>[Resolved] users unable to save new dives; some existing dives also affected</title>
+      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
+      <guid>PZBCJER-1772756974</guid>
       <description>Affected: MotherDuck App
 
-This issue has been resolved, the MCP server is available.</description>
-      <pubDate>Tue, 24 Mar 2026 14:32:20 +0000</pubDate>
+This incident has been resolved.</description>
+      <pubDate>Fri, 06 Mar 2026 00:29:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Investigating] users unable to save new dives; some existing dives also affected</title>
+      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
+      <guid>PZBCJER-1772755161</guid>
+      <description>Affected: MotherDuck App
+
+We believe we have identified the root cause and are working to validate a fix. We believe the fix will be deployed within 2 hours.</description>
+      <pubDate>Thu, 05 Mar 2026 23:59:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Investigating] users unable to save new dives; some existing dives also affected</title>
+      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
+      <guid>PZBCJER-1772754137</guid>
+      <description>Affected: MotherDuck App
+
+Following a code release at approximately 23:00 UTC, most customers are unable to create new dives and may experience errors when loading existing dives. We are continuing to investigate the root cause.</description>
+      <pubDate>Thu, 05 Mar 2026 23:42:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Detected] users unable to save new dives; some existing dives also affected</title>
+      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
+      <guid>PZBCJER-1772751980</guid>
+      <description>Affected: MotherDuck App
+
+Our internal monitors have detected an increase in server-side error messages immediately following a release. We are currently investigating the issue. So far a limited number of customers appear to be affected but the full impact is unknown.</description>
+      <pubDate>Thu, 05 Mar 2026 23:06:20 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -183,24 +183,30 @@ def generate_rss(layout_data, posts, post_enums, services):
 
     max_pub_ms = 0
 
+    # Collect all (post_meta, update) pairs so we can sort globally by timestamp
+    all_items = []
     for post in posts:
         post_id = post.get("id", "")
         post_title = post.get("title", "Status Update")
         link = f"https://status.motherduck.com/posts/details/{post_id}"
-        updates = sorted(post.get("updates") or [], key=lambda u: u.get("reported_at", 0))
-        for upd in updates:
-            reported_ms = upd.get("reported_at") or 0
-            epoch_seconds = int(reported_ms / 1000)
-            item = SubElement(channel, "item")
-            SubElement(item, "title").text = build_update_title(post_title, upd, status_map)
-            SubElement(item, "link").text = link
-            SubElement(item, "guid").text = f"{post_id}-{epoch_seconds}"
-            SubElement(item, "description").text = build_update_description(
-                upd, impact_severity_map, service_map
-            )
-            SubElement(item, "pubDate").text = ms_to_rfc2822(reported_ms)
-            if reported_ms > max_pub_ms:
-                max_pub_ms = reported_ms
+        for upd in (post.get("updates") or []):
+            all_items.append((post_id, post_title, link, upd))
+
+    all_items.sort(key=lambda x: x[3].get("reported_at", 0), reverse=True)
+
+    for post_id, post_title, link, upd in all_items:
+        reported_ms = upd.get("reported_at") or 0
+        epoch_seconds = int(reported_ms / 1000)
+        item = SubElement(channel, "item")
+        SubElement(item, "title").text = build_update_title(post_title, upd, status_map)
+        SubElement(item, "link").text = link
+        SubElement(item, "guid").text = f"{post_id}-{epoch_seconds}"
+        SubElement(item, "description").text = build_update_description(
+            upd, impact_severity_map, service_map
+        )
+        SubElement(item, "pubDate").text = ms_to_rfc2822(reported_ms)
+        if reported_ms > max_pub_ms:
+            max_pub_ms = reported_ms
 
     if not posts:
         item = SubElement(channel, "item")
