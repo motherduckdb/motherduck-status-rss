@@ -32,7 +32,10 @@ jobs:
           aws-region: us-east-1
 
       - name: Upload feed to S3
-        run: aws s3 cp feed.xml s3://status-rss.motherduck.com/feed.xml --content-type application/rss+xml
+        run: aws s3 cp feed.xml s3://status-rss.md-playground.com/feed.xml --content-type application/rss+xml
+
+      - name: Invalidate CloudFront cache
+        run: aws cloudfront create-invalidation --distribution-id ENHBL8P96A9S8 --paths "/feed.xml"
 
       - name: Commit and push if changed
         run: |
