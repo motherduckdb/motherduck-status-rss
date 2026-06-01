@@ -180,59 +180,5 @@ Databases are loading as expected after deploying the fix. We are actively monit
       <description>Some users are experiencing a degradation of service because a subset of databases are failing to load. We are investigating.</description>
       <pubDate>Fri, 03 Apr 2026 05:45:00 +0000</pubDate>
     </item>
-    <item>
-      <title>[Resolved] MotherDuck Remote MCP Server is currently unavailable</title>
-      <link>https://status.motherduck.com/posts/details/P9BOS1P</link>
-      <guid>P9BOS1P-1774362740</guid>
-      <description>Affected: MotherDuck App
-
-This issue has been resolved, the MCP server is available.</description>
-      <pubDate>Tue, 24 Mar 2026 14:32:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] MotherDuck Remote MCP Server is currently unavailable</title>
-      <link>https://status.motherduck.com/posts/details/P9BOS1P</link>
-      <guid>P9BOS1P-1774361564</guid>
-      <description>Affected: MotherDuck App
-
-The MotherDuck remote MCP server is currently unavailable, we are investigating the issue.</description>
-      <pubDate>Tue, 24 Mar 2026 14:12:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Resolved] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772756974</guid>
-      <description>Affected: MotherDuck App
-
-This incident has been resolved.</description>
-      <pubDate>Fri, 06 Mar 2026 00:29:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772755161</guid>
-      <description>Affected: MotherDuck App
-
-We believe we have identified the root cause and are working to validate a fix. We believe the fix will be deployed within 2 hours.</description>
-      <pubDate>Thu, 05 Mar 2026 23:59:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772754137</guid>
-      <description>Affected: MotherDuck App
-
-Following a code release at approximately 23:00 UTC, most customers are unable to create new dives and may experience errors when loading existing dives. We are continuing to investigate the root cause.</description>
-      <pubDate>Thu, 05 Mar 2026 23:42:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Detected] users unable to save new dives; some existing dives also affected</title>
-      <link>https://status.motherduck.com/posts/details/PZBCJER</link>
-      <guid>PZBCJER-1772751980</guid>
-      <description>Affected: MotherDuck App
-
-Our internal monitors have detected an increase in server-side error messages immediately following a release. We are currently investigating the issue. So far a limited number of customers appear to be affected but the full impact is unknown.</description>
-      <pubDate>Thu, 05 Mar 2026 23:06:20 +0000</pubDate>
-    </item>
   </channel>
 </rss>
