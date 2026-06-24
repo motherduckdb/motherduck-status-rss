@@ -5,8 +5,17 @@
     <link>https://status.motherduck.com</link>
     <description>Everything is paddling smoothly</description>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 01:38:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 20:15:00 +0000</lastBuildDate>
     <ttl>15</ttl>
+    <item>
+      <title>[Resolved] Flights DNS issues on us-east-1</title>
+      <link>https://status.motherduck.com/posts/details/PIBRT9D</link>
+      <guid>PIBRT9D-1782332100</guid>
+      <description>Affected: MotherDuck App
+
+The issue is resolved and all Flights in us-east-1 should be operational again.</description>
+      <pubDate>Wed, 24 Jun 2026 20:15:00 +0000</pubDate>
+    </item>
     <item>
       <title>[Resolved] We are experiencing elevated attach failures</title>
       <link>https://status.motherduck.com/posts/details/PB8IG6M</link>
