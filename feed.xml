@@ -3,10 +3,19 @@
   <channel>
     <title>MotherDuck Status</title>
     <link>https://status.motherduck.com</link>
-    <description>Everything is paddling smoothly</description>
+    <description>Elevated rate of query errors</description>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 20:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 22:00:00 +0000</lastBuildDate>
     <ttl>15</ttl>
+    <item>
+      <title>[Detected] Elevated rate of query errors</title>
+      <link>https://status.motherduck.com/posts/details/PG3HBHM</link>
+      <guid>PG3HBHM-1782338400</guid>
+      <description>Affected: MotherDuck App
+
+At ~10:30 UTC, MotherDuck observed partial platform disruption via elevated error rates across all regions for Ducklings. We are actively investigating and will provide an update shortly.</description>
+      <pubDate>Wed, 24 Jun 2026 22:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>[Resolved] Flights DNS issues on us-east-1</title>
       <link>https://status.motherduck.com/posts/details/PIBRT9D</link>
