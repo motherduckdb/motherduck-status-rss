@@ -3,10 +3,19 @@
   <channel>
     <title>MotherDuck Status</title>
     <link>https://status.motherduck.com</link>
-    <description>Elevated rate of query errors</description>
+    <description>Everything is paddling smoothly</description>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 12:20:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 12:25:59 +0000</lastBuildDate>
     <ttl>15</ttl>
+    <item>
+      <title>[Resolved] Elevated rate of query errors</title>
+      <link>https://status.motherduck.com/posts/details/PG3HBHM</link>
+      <guid>PG3HBHM-1782390359</guid>
+      <description>Affected: MotherDuck App
+
+Our team has identified the root cause of the elevated error rates and has released a fix. We are currently in the process of rolling out this update. We are observing reduced error rates, and our systems are steadily returning to normal operation. We are monitoring the situation closely and will...</description>
+      <pubDate>Thu, 25 Jun 2026 12:25:59 +0000</pubDate>
+    </item>
     <item>
       <title>[Investigating] Elevated rate of query errors</title>
       <link>https://status.motherduck.com/posts/details/PG3HBHM</link>
