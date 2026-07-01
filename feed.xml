@@ -173,57 +173,5 @@ For some customers, Dives may not load properly, with a stuck page that says "Wa
 But while we've fixed the issue upstream, you might encounter it...</description>
       <pubDate>Fri, 01 May 2026 20:50:00 +0000</pubDate>
     </item>
-    <item>
-      <title>[Resolved] MotherDuck databases unavailable in us-east-1</title>
-      <link>https://status.motherduck.com/posts/details/PTJ59ZS</link>
-      <guid>PTJ59ZS-1777558511</guid>
-      <description>Affected: MotherDuck App
-
-This incident has been resolved. All databases are available.</description>
-      <pubDate>Thu, 30 Apr 2026 14:15:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] MotherDuck databases unavailable in us-east-1</title>
-      <link>https://status.motherduck.com/posts/details/PTJ59ZS</link>
-      <guid>PTJ59ZS-1777557235</guid>
-      <description>Affected: MotherDuck App
-
-We have identified the root cause of this incident and are implementing a fix.</description>
-      <pubDate>Thu, 30 Apr 2026 13:53:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] MotherDuck databases unavailable in us-east-1</title>
-      <link>https://status.motherduck.com/posts/details/PTJ59ZS</link>
-      <guid>PTJ59ZS-1777556400</guid>
-      <description>Affected: MotherDuck App
-
-We are currently experiencing a US East 1 service disruption where databases are unable to be opened and snapshotted. This impacts both existing and new connections. Share updates may also be impacted. Our team is investigating and will update as soon as we learn more.
-
-We will provide...</description>
-      <pubDate>Thu, 30 Apr 2026 13:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Resolved] Some databases are failing to load</title>
-      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
-      <guid>PEOX9ST-1775202231</guid>
-      <description>Affected: MotherDuck App
-
-Databases are loading as expected after deploying the fix. We are actively monitoring the health of the service.</description>
-      <pubDate>Fri, 03 Apr 2026 07:43:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] Some databases are failing to load</title>
-      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
-      <guid>PEOX9ST-1775199600</guid>
-      <description>We have identified the root cause and are working on implementing a fix</description>
-      <pubDate>Fri, 03 Apr 2026 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Investigating] Some databases are failing to load</title>
-      <link>https://status.motherduck.com/posts/details/PEOX9ST</link>
-      <guid>PEOX9ST-1775195100</guid>
-      <description>Some users are experiencing a degradation of service because a subset of databases are failing to load. We are investigating.</description>
-      <pubDate>Fri, 03 Apr 2026 05:45:00 +0000</pubDate>
-    </item>
   </channel>
 </rss>
